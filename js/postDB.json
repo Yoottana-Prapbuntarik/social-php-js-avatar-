@@ -6,5 +6,9 @@
     "post2": {
         "user": "kururu",
         "message": "hello world"
+    },
+    "newPost3": {
+        "user": "dororo",
+        "message": "สวัสดีวันศุกร์"
     }
 }

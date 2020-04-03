@@ -20,8 +20,6 @@ function readJson(){
 	xhr.send();
 // complete this function
 // อ่าน post ที่เคยเขียนไว้ ใน file ที่ชื่อว่า postDB.json และทำการ show post ทั้งหมดที่มีใน file
-
-
 }
 function writeJson(msg) {
 	var xhr = new XMLHttpRequest();
@@ -57,8 +55,6 @@ function writeJson(msg) {
 	//ส่งข้อความที่เพิ่งพิมพ์และข้อความเก่าเข้ามาเพื่อทำการบันทึกทับใน 
 	//postDB.json โดย AJAX ทำการส่ง json string ไปให้ writeJson.php 
 	//ถ้าทำสำเร็จจะแสดง post ข้อความ โดยใช้ showPost function
-
-
 }
 function showPost(data){
 	var keys = Object.keys(data);
